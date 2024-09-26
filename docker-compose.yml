@@ -1,0 +1,12 @@
+services:
+  web:
+    image: nginx:latest
+    container_name: secpo-cn
+    environment:
+      NGINX_HOST: secpo.cl
+      NGINX_PORT: 80
+    volumes:
+      - ./secpo:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    restart: always
