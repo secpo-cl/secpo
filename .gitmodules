@@ -1,0 +1,3 @@
+[submodule "secpo-cl.github.io"]
+	path = secpo-cl.github.io
+	url = https://github.com/secpo-cl/secpo-cl.github.io.git
